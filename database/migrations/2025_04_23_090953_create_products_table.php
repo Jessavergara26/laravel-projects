@@ -15,6 +15,7 @@ public function up(): void {
     $table->integer('quantity');
     $table->decimal('price', 8, 2);
     $table->text('description')->nullable();
+    $table->string('image')->nullable();
     $table->timestamps();
     });
     }
